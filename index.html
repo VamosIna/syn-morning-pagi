@@ -5,8 +5,17 @@
 </head>
 <body>
 
-<h1>This is a Heading</h1>
+<h1 id="demo">This is a Heading</h1>
 <p>This is a paragraph.</p>
 
 </body>
 </html>
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "48px";
+  x.style.color = "red";
+}
+</script>
